@@ -36,16 +36,26 @@
             flex-direction: column;
             height: 100vh;
             overflow: hidden;
-            padding: 20px;
-            box-sizing: border-box;
         }
 
-        .heart {
-            background-image: url('https://emojicdn.elk.sh/❤️');
-            background-size: contain;
-            width: 100px; /* Ajuste o tamanho do coração conforme necessário */
-            height: 100px; /* Ajuste o tamanho do coração conforme necessário */
-            margin: 20px; /* Espaçamento entre os corações */
+        .card {
+            position: relative;
+            background-color: rgba(255, 255, 255, 0.2);
+            border: 10px solid #1d0122;
+            border-radius: 50px;
+            padding: 20px;
+            margin: 10px;
+            text-align: center;
+            box-shadow: 0px 0px 10px #d15ae6;
+            max-width: 700px;
+            width: 40%;
+        }
+
+        h1 {
+            font-size: 3em;
+            color: #ffffff;
+            font-family: 'Pacifico', cursive;
+            margin: 10px 0;
         }
 
         .message {
@@ -55,38 +65,32 @@
         }
 
         h2 {
-            font-size: 1em;
+            font-size: 1.2em;
             line-height: 1.6;
-        }
-
-        @media only screen and (min-width: 600px) {
-            h2 {
-                font-size: 1.2em;
-            }
         }
     </style>
 </head>
 
 <body>
     <div class="container">
-        <div class="heart"></div>
-        <div class="heart"></div>
-        <div class="heart"></div>
-        <div class="heart"></div>
-        <div class="heart"></div>
-        <div class="message">
-            <h2>
-                Eu sei que nem sempre estive tão presente quanto deveria na sua vida, e por isso peço desculpas. Mas saiba
-                que, não importa onde eu esteja, estarei sempre torcendo por você. Desejo de todo o coração que sua vida
-                seja repleta de coisas maravilhosas, hoje e sempre.<br><br>
-                Você é um ser humano incrível, e me considero extremamente sortuda por ter cruzado o seu caminho. É uma
-                alegria imensa poder celebrar este momento ao seu lado, mesmo que com um toque de humor kaskkask. Mal posso
-                esperar para compartilhar não apenas este dia, mas os próximos 50 anos juntos. Você supera tudo o que eu
-                poderia ter sonhado para mim.<br><br>
-                Meu amor por você é inabalável, e mesmo que eu seja uma incógnita em muitos aspectos, uma coisa é certa: eu
-                te amo hoje e sempre.
-            </h2>
-            <h3>Com amor, Leticia Moronha!</h3>
+        <div class="card">
+            <h1>Parabéns, meu amor!</h1>
+        </div>
+        <div class="card">
+            <div class="message">
+                <h2>
+                    Eu sei que nem sempre estive tão presente quanto deveria na sua vida, e por isso peço desculpas. Mas saiba
+                    que, não importa onde eu esteja, estarei sempre torcendo por você. Desejo de todo o coração que sua vida
+                    seja repleta de coisas maravilhosas, hoje e sempre.<br><br>
+                    Você é um ser humano incrível, e me considero extremamente sortuda por ter cruzado o seu caminho. É uma
+                    alegria imensa poder celebrar este momento ao seu lado, mesmo que com um toque de humor kaskkask. Mal posso
+                    esperar para compartilhar não apenas este dia, mas os próximos 50 anos juntos. Você supera tudo o que eu
+                    poderia ter sonhado para mim.<br><br>
+                    Meu amor por você é inabalável, e mesmo que eu seja uma incógnita em muitos aspectos, uma coisa é certa: eu
+                    te amo hoje e sempre.
+                </h2>
+                <h3>Com amor, Leticia Moronha!</h3>
+            </div>
         </div>
     </div>
 </body>
