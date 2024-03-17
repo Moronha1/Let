@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seja Bem-vinda!</title>
+    <style>
+        body {
+            background-image: url('img/one.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center center;
+            font-family: Arial, sans-serif;
+            color: #ffffff;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+            text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+            /* Adicionando sombreamento preto ao texto */
+        }
+
+        p {
+            font-size: 1.2em;
+            margin-bottom: 30px;
+            text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+            /* Adicionando sombreamento preto ao texto */
+        }
+
+        button {
+            padding: 15px 30px;
+            font-size: 1.2em;
+            background-color: #ffffff;
+            color: #000000;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #cccccc;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h1>Neide Nayara</h1>
+        <p>Clique no botão abaixo para visualizar o pequeno texto que escrevi.</p>
+        <button onclick="startCelebration()">Visualizar</button>
+    </div>
+
+    <script>
+        function startCelebration() {
+            window.location.href = "celebration.html";
+        }
+    </script>
+</body>
+
+</html>
