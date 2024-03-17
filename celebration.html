@@ -46,7 +46,7 @@
             padding: 20px;
             margin: 10px;
             text-align: center;
-            box-shadow: 0px 0px 10px #d15ae6;
+            box-shadow: 0px 0px px #d15ae6;
             max-width: 700px;
             width: 40%;
         }
@@ -67,6 +67,19 @@
         h2 {
             font-size: 1.2em;
             line-height: 1.6;
+        }
+
+        /* Media query para telas maiores, como o iPhone 11 e acima */
+        @media only screen and (min-width: 414px) {
+            .card {
+                width: 70%; /* Reduzindo a largura do card para telas maiores */
+            }
+            h1 {
+                font-size: 4em; /* Ajustando o tamanho da fonte do título para telas maiores */
+            }
+            h2 {
+                font-size: 1.5em; /* Ajustando o tamanho da fonte do texto para telas maiores */
+            }
         }
     </style>
 </head>
